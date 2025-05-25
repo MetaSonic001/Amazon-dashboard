@@ -759,4 +759,4 @@ def calculate_user_journey_data(df):
     return nodes, links
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=10000, debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
